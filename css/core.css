@@ -1,0 +1,192 @@
+#biglogo {
+  z-index: -1;
+  opacity: 0.1;
+  width: 1200px;
+  position: fixed;
+  left: -250px;
+  top: -120px;
+}
+
+#biglogocontainer {
+  width: 1200px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #34495e;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#maincontentcontainer {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1000px;
+  top: 30px;
+}
+
+#maintitle {
+  text-align: center;
+  font-size: 150px;
+  letter-spacing: 70px;
+  text-indent: 60px;
+  margin: 0;
+  
+}
+
+#mainsubtitle {
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  letter-spacing: 7px;
+  word-spacing: 30px;
+  
+}
+
+.doubleline {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-top: medium double #fff;
+}
+
+#smalllogo {
+  background-image: url("../img/smalllogo.png");
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  letter-spacing: 5px;
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -o-user-select: none; 
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  border: solid 1px #fff;
+  background-color: #34495e;
+  transition: background-color .2s ease-in;
+}
+
+.button:hover {
+  background-color: #2b3c4d;
+}
+
+#mapfile{
+    width: 250px;
+    height: 60px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.infotext {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 10px 20px 10px;
+}
+
+.defmaps {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+#defmapswrapper {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#selectfilebuttonwrapper {
+  width: 250px;
+  margin: 0 auto 20px auto;
+}
+
+#backbutton {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  display: none;
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#leftpanel {
+  display: inline-block;
+  width: 480px;
+  border: 1px solid #fff;
+  background-color: #34495e;
+  margin: 0 10px 0 12px;
+}
+
+#rightpanel {
+  display: inline-block;
+  width: 480px;
+  vertical-align: top;
+}
+
+.blocktitle {
+  background-color: #2b3c4d;
+  margin: 0;
+  text-indent: 15px;
+  padding: 3px 0 5px 0;
+  border-bottom: 1px solid #fff;
+}
+
+#mapmaker, #viewercontrols {
+  border: 1px solid #fff;
+  background-color: #34495e;
+  margin-bottom: 20px;
+}
+
+#controlstext {
+  font-size: 1em;
+  margin: 10px auto 10px auto;
+  width: 450px;
+}
+
+#mmbutton a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#notice {
+  font-size: 0.75em;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+#notice a {
+  text-decoration: underline;
+}
