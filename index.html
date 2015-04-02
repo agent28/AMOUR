@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>AMOUR: Home (alpha)</title>
+    <link rel="stylesheet" type="text/css" href="css/core.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+      if (!(window.File && window.FileReader && window.Blob))
+      {
+        alert("Your browser does not support HTML5 File API. Please update to a newer version of your favorite browser.");
+      }
+    </script>
+    <script src="js/three.min.js"></script>
+  </head>
+  <body>
+  <div class="button" id="backbutton">BACK</div>
+  <div id="wrapper">
+      <div id="biglogocontainer">
+        <img id="biglogo" src="img/biglogo.png"/>
+      </div>
+      
+      <div id="maincontentcontainer">
+      
+      <div id="smalllogo"></div>
+      <hr class="doubleline"/>
+      <h1 id="maintitle">AMOUR</h1>
+      <hr class="doubleline"/>
+      <h2 id="mainsubtitle">Agent's Mapmaking Online Utilities for Reborn</h2>
+      
+      <div id="leftpanel">
+        <h3 class="blocktitle">Map viewer</h3>
+        
+        <p class="infotext">Load a Reborn map from your computer:</p>
+        
+        <div id="selectfilebuttonwrapper">
+        <div class="button" id="selectfilebutton">
+            BROWSE
+            <input id="mapfile" type="file" name="file"/>
+        </div>
+        </div>
+
+        <p class="infotext">...or view one of already available maps:</p>
+        
+        <div id="defmapswrapper">
+        <div class="button defmaps" id="jbo">JAMESBOX (old)</div>
+        <div class="button defmaps" id="jbb">JAMESBOXBOX</div>
+        <div class="button defmaps" id="hng">HANGAR</div>
+        </div>
+      </div>
+
+      <div id="rightpanel">
+        <div id="mapmaker">
+          <h3 class="blocktitle">Map maker</h3>
+
+          <p class="infotext">Try your hand at mapmaking for Reborn with my simple map maker:</p>
+          <div class="button defmaps" id="mmbutton"><a href="mapmaker.html">LOAD MAP MAKER</a></div>
+
+        </div>
+        <div id="viewercontrols">
+          <h3 class="blocktitle">Map viewer controls</h3>
+
+          <p id="controlstext">
+            Map viewer controls are rather simple and intuitive.<br>
+            Use mouse wheel to zoom in and out; dragging mouse with left mouse button (LMB) pressed will pan camera around, while dragging mouse with Alt and LMB will rotate camera.
+          </p>
+        </div>
+      </div>
+      <p id="notice">Logo and game assets used are property of <a href="http://www.reborn.gg">Reborn</a> team</p>
+      </div>
+    </div>
+    <script src="js/mapfileloader.js"></script>
+    <script src="js/mapviewer.js"></script>
+  </body>
+</html>
